@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="org.uoi.lawtopropertygraphgenerator.api.GPTResponseProcessor"
+    project="LawToKnowledgeGraphGenerator" 
+    file="/LawToKnowledgeGraphGenerator/src/main/java/org/uoi/lawtoknowledgegraphgenerator/api/GPTResponseProcessor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="369" x="41" y="338"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.uoi.lawtopropertygraphgenerator.api.GPTApiHandler"
+    project="LawToKnowledgeGraphGenerator" 
+    file="/LawToKnowledgeGraphGenerator/src/main/java/org/uoi/lawtoknowledgegraphgenerator/api/GPTApiHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="358" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

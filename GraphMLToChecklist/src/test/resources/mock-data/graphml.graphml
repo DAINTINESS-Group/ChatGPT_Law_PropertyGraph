@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:y="http://www.yworks.com/xml/graphml"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+    <key id="n0" for="node" attr.name="label" attr.type="string"/>
+    <key id="e0" for="edge" attr.name="label" attr.type="string"/>
+
+    <graph id="G" edgedefault="directed">
+        <node id="EntityA">
+            <data key="n0">
+                <y:NodeLabel>EntityA</y:NodeLabel>
+            </data>
+        </node>
+        <node id="EntityB">
+            <data key="n0">
+                <y:NodeLabel>EntityB</y:NodeLabel>
+            </data>
+        </node>
+
+        <edge id="e1" source="EntityA" target="EntityB">
+            <data key="e0">
+                <y:EdgeLabel>relates_to</y:EdgeLabel>
+            </data>
+        </edge>
+    </graph>
+</graphml>

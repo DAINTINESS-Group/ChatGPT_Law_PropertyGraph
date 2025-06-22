@@ -1,0 +1,25 @@
+<graphML>
+<graphml>
+  <graph id="G" edgedefault="directed">
+    <node id="EU database"/>
+    <node id="personal data"/>
+    <node id="natural persons"/>
+    <node id="contact details"/>
+    <node id="legal authority"/>
+    <node id="provider"/>
+    <node id="deployer"/>
+    <node id="Regulation"/>
+    <node id="information"/>
+    <node id="system registration"/>
+
+    <edge source="EU database" target="personal data" label="contains" data="8.1.6"/>
+    <edge source="personal data" target="information" label="necessary for" data="8.1.6"/>
+    <edge source="information" target="natural persons" label="includes" data="8.1.6"/>
+    <edge source="natural persons" target="contact details" label="have" data="8.1.6"/>
+    <edge source="natural persons" target="legal authority" label="responsible for" data="8.1.6"/>
+    <edge source="legal authority" target="provider" label="represent" data="8.1.6"/>
+    <edge source="legal authority" target="deployer" label="represent" data="8.1.6"/>
+    <edge source="information" target="Regulation" label="in accordance with" data="8.1.6"/>
+    <edge source="information" target="system registration" label="related to" data="8.1.6"/>
+  </graph>
+</graphML>

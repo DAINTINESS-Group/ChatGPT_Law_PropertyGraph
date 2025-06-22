@@ -1,0 +1,12 @@
+{
+  "chapterNumber": 1,
+  "chapterTitle": "Chapter Title Example",
+  "articles": [
+    {
+      "articleNumber": 1,
+      "articleID": "A1",
+      "articleTitle": "Article Title",
+      "paragraphs": []
+    }
+  ]
+}

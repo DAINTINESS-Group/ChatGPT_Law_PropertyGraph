@@ -1,0 +1,11 @@
+<graphML>
+<graph>
+  <node id="Deployer"/>
+  <node id="Public authority"/>
+  <node id="Agency"/>
+  <node id="Body"/>
+  <edge source="Deployer" target="Public authority" label="acts on behalf of" data="8.1.4"/>
+  <edge source="Deployer" target="Agency" label="acts on behalf of" data="8.1.4"/>
+  <edge source="Deployer" target="Body" label="acts on behalf of" data="8.1.4"/>
+</graph>
+</graphML>

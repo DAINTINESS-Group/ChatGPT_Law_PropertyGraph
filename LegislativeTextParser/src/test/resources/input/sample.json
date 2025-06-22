@@ -1,0 +1,33 @@
+{
+  "chapters": [
+    {
+      "articles": [
+        {
+          "paragraphs": [
+            {
+              "text": [
+                {
+                  "text": "Definitions: This article provides the necessary terms."
+                }
+              ]
+            },
+            {
+              "text": [
+                {
+                  "text": "‘Entity A’ means a machine-based system designed to operate with autonomy;"
+                }
+              ]
+            },
+            {
+              "text": [
+                {
+                  "text": "‘Entity B’ means an organization or individual supplying AI systems;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

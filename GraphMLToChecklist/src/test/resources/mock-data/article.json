@@ -1,0 +1,17 @@
+{
+  "articleNumber": 1,
+  "articleID": "A1",
+  "articleTitle": "Sample Article",
+  "paragraphs": [
+    {
+      "paragraphNumber": 1,
+      "paragraphID": "P1",
+      "text": [
+        {
+          "pointNumber": 1,
+          "text": "Point text inside paragraph."
+        }
+      ]
+    }
+  ]
+}

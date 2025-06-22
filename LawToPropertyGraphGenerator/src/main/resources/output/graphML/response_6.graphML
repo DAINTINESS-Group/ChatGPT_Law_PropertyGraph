@@ -1,0 +1,21 @@
+<graphML>
+<graphml>
+  <graph id="G" edgedefault="directed">
+    <node id="Commission"/>
+    <node id="EU database"/>
+    <node id="providers"/>
+    <node id="prospective providers"/>
+    <node id="deployers"/>
+    <node id="technical support"/>
+    <node id="administrative support"/>
+    <node id="accessibility requirements"/>
+    
+    <edge source="Commission" target="EU database" label="controls" data="8.1.7"/>
+    <edge source="EU database" target="providers" label="makes available" data="8.1.7"/>
+    <edge source="EU database" target="prospective providers" label="makes available" data="8.1.7"/>
+    <edge source="EU database" target="deployers" label="makes available" data="8.1.7"/>
+    <edge source="EU database" target="technical support" label="provides" data="8.1.7"/>
+    <edge source="EU database" target="administrative support" label="provides" data="8.1.7"/>
+    <edge source="EU database" target="accessibility requirements" label="complies with" data="8.1.7"/>
+  </graph>
+</graphML>

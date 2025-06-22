@@ -1,0 +1,20 @@
+<graphML>
+<graph id="G" edgedefault="directed">
+  <node id="EU database"/>
+  <node id="Article 49"/>
+  <node id="Article 60"/>
+  <node id="market surveillance authorities"/>
+  <node id="Commission"/>
+  <node id="prospective provider"/>
+  <node id="provider"/>
+  
+  <edge source="EU database" target="Article 49" label="contains" data="8.1.5"/>
+  <edge source="EU database" target="Article 60" label="contains" data="8.1.5"/>
+  <edge source="Article 49" target="market surveillance authorities" label="accessible to" data="8.1.5"/>
+  <edge source="Article 49" target="Commission" label="accessible to" data="8.1.5"/>
+  <edge source="Article 60" target="market surveillance authorities" label="accessible to" data="8.1.5"/>
+  <edge source="Article 60" target="Commission" label="accessible to" data="8.1.5"/>
+  <edge source="prospective provider" target="EU database" label="consent for access" data="8.1.5"/>
+  <edge source="provider" target="EU database" label="consent for access" data="8.1.5"/>
+</graph>
+</graphML>

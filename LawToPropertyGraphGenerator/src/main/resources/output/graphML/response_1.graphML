@@ -1,0 +1,21 @@
+<graphML>
+<graph>
+  <node id="Commission"/>
+  <node id="Member States"/>
+  <node id="EU database"/>
+  <node id="high-risk AI systems"/>
+  <node id="Article 6(2)"/>
+  <node id="Articles 49"/>
+  <node id="Articles 60"/>
+  <node id="relevant experts"/>
+  <node id="Board"/>
+
+  <edge source="Commission" target="EU database" label="shall set up and maintain" data="8.1.2"/>
+  <edge source="EU database" target="high-risk AI systems" label="contains information concerning" data="8.1.2"/>
+  <edge source="high-risk AI systems" target="Article 6(2)" label="referred to in" data="8.1.2"/>
+  <edge source="EU database" target="Articles 49" label="registered in accordance with" data="8.1.2"/>
+  <edge source="EU database" target="Articles 60" label="registered in accordance with" data="8.1.2"/>
+  <edge source="Commission" target="relevant experts" label="shall consult" data="8.1.2"/>
+  <edge source="Commission" target="Board" label="shall consult" data="8.1.2"/>
+</graph>
+</graphML>

@@ -1,0 +1,8 @@
+```xml
+<graphml>
+    <graph edge default="directed">
+        <node id="EntityA" label="EntityA"/>
+        <node id="EntityB" label="EntityB"/>
+        <edge source="EntityA" target="EntityB" label="is related to"/>
+    </graph>
+</graphml>
