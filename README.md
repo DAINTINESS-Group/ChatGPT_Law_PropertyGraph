@@ -92,12 +92,16 @@ The repository consists of **three independent Maven projects**, each located in
 # 1. Run the legislative parser
 cd LegislativeTextParser
 mvn clean install
-java -jar target/legislative-text-parser.jar path/to/AI_Act.pdf
+java -jar target/legislative-text-parser.jar
 
 # 2. Copy the entities file to the second tool
 cp src/resources/output/entities.txt ../LawToPropertyGraphGenerator/src/resources/output/
 
 # 3. Add API credentials to env.properties in the second tool's root
+# Create a file named "env.properties" in the project's root
+# Paste inside :
+GPT_API_URL=https://api.openai.com/v1/chat/completions
+GPT_API_KEY=your_openai_key_here
 
 # 4. Run the property graph generator
 cd ../LawToPropertyGraphGenerator
@@ -129,4 +133,4 @@ Developed by **Papadopoulos Konstantinos**,
 Undergraduate student, **Department of Computer Science and Engineering**,  
 **University of Ioannina**
 
-Supervised by **Professor Panos Vasileiadis**
+Supervised by **Professor Panos Vasiliadis**
