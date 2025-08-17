@@ -1,13 +1,13 @@
-# ChatGPT_Law_PropertyGraph: Automated Analysis of Regulatory Documents
+# ChatGPT_Law_PropertyGraph: Automated Analysis of Regulatory Documents (Diploma Thesis)
 
 ## Overview
 
-**ChatGPT_Law_PropertyGraph** is a modular Java-based software pipeline that transforms legal PDF documents into structured knowledge, supporting compliance checking with the European data regulatory framework. The system produces:
+**ChatGPT_Law_PropertyGraph** is a modular Java-based pipeline that transforms legal PDF documents into structured knowledge graphs and compliance checklists.
+The system has been developed in the context of my Diploma Thesis and uses the **EU AI Act** as a primary case study.
 
+The system produces:
 - A **property graph** in GraphML format  
 - A **Markdown checklist** outlining obligations, rights, and prohibitions
-
-This project was developed as part of a thesis and uses the **EU AI Act** as a primary use case.
 
 ---
 
@@ -127,10 +127,10 @@ java -jar target/graphml-to-checklist.jar
 
 ---
 
-## Authors
+## Academic Context
 
-Developed by **Papadopoulos Konstantinos**,  
-Undergraduate student, **Department of Computer Science and Engineering**,  
-**University of Ioannina**
+This project was developed as part of the **Diploma Thesis** of  
+**Papadopoulos Konstantinos**, Undergraduate Student  
+**Department of Computer Science and Engineering, University of Ioannina**  
 
-Supervised by **Professor Panos Vasiliadis**
+Supervisor: **Professor Panos Vasiliadis**
